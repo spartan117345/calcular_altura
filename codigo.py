@@ -11,12 +11,15 @@ print("===============================================================")
 
 # processing
 
+q = h / 5
 i = 0
 
-
 while i <= 5:
-    s= h - ( h / 10% h)
+    h = h - (0.1*h)
     i = i + 1
+    
 
-print("el quinto rebote de la pelota tendra una altura de: "+ str(s))
+# output
+
+print("el quinto rebote de la pelota tendra una altura de: "+ str(h)+" metros")
 print("===============================================================")
