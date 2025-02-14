@@ -10,12 +10,14 @@ una pelota se deja caer desde una altura h, y en cada rebote sube el 10% menos q
 
 h = altura desde la cual se deja caer la pelota
 
-s = h - (10% h)
+h = h - (10% h)
+
+i = 0
 
 ### processing
 
-    while i <= 5: 
-    s = h - (10% h)
+    while i >= 5: 
+    h = 0.9*h
     i = i + 1
 
 # diseño
